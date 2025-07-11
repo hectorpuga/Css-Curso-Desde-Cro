@@ -44,13 +44,19 @@
 
 
 }
+.card{
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px 0;
+    border: 1px solid black;
+}
 
 .img{
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    margin: 80px auto;
+    margin: 20px auto;
     /* border: 20px groove brown; */
     border-radius: 50%;
     /* border-radius: 50px 5px; */
@@ -59,4 +65,24 @@
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 100px; */
 
+}
+
+.cta{
+background: crimson;
+padding: 15px 0;
+border-radius: 3px;
+text-decoration: none;
+color: white;
+margin: 0 auto;
+width: 150px;
+display: block;
+text-align: center;
+margin: 20px auto;
+}
+
+.name
+{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
