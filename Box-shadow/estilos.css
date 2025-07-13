@@ -19,5 +19,9 @@
     background: steelblue;
     margin-left: 30px;
     /* box-shadow: h-offset v-offset blur spread color; */
-    box-shadow: 10px 10px;
+    /* box-shadow: 100px 100px 0 0 crimson,
+                100px 0 darkblue,
+                0 100px darkgreen; */
+
+    box-shadow: 3px 3px 10px 2px crimson;
 }
