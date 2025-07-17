@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box{
+
+    background: steelblue;
+    width: 55px;
+    height: 55px;
+    margin: 10px 0;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+
+    margin-left: -5px;
+    padding: 10px 0;
+    border: 3px solid lightcoral;
+}
+
+/* Por su tipo*/
+
+/* .box:only-of-type{
+
+    background: tomato;
+} */
+
+/* .box:first-of-type{
+    background: tomato;
+} */
+
+/* .box:last-of-type{
+    background: tomato;
+} */
+
+/* .box:nth-of-type(even){
+    background: tomato;
+} */
+
+/* .box:nth-last-of-type(1){
+    background: tomato;
+} */
+
+/* .box:only-child{
+    background-color: tomato;
+} */
+
+/* .box:first-child{
+
+    background: tomato;
+} */
+
+
+/* div:last-child{
+background: crimson;
+
+} */
+
+/* div:nth-child(1){
+background: crimson;
+
+} */
+
+/* .container :nth-child(3){
+
+    background: crimson;
+} */
+
+/* body :nth-child(1){
+    background: crimson;
+} */
+
+.container :nth-last-child(1){
+
+    background: crimson;
+}
