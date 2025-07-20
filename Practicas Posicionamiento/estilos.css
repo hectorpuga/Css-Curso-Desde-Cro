@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Raleway", sans-serif;
+     min-height: 200vh;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(180deg,rgba(39, 93, 194, 0.5) 0% ,rgba(29, 32, 182, 0.5) 100%),url(img/fondo2.png) ;
+    background-position: center;
+    background-size: cover;
+    padding: 0.1px;
+
+
+}
+
+
+.container-text{
+
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+
+}
+
+.hero__title{
+
+    font-size: 4rem;
+    
+}
+
+.hero__copy{
+
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero__cta{
+
+    display: inline-block;
+    background-color: #fff;
+    text-decoration: none;
+    color: #257dc2;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero__cta:hover{
+
+    background-color:#257dc2 ;
+    color: #fff;
+}
+
+.hero__wave{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
