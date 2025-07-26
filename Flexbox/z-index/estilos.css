@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    background: #dfd7d7;
+}
+
+.container{
+    display: flex;
+}
+
+.item{
+
+    background: tomato;
+    width: 200px;
+    height: 200px;
+
+}
+
+.item1{
+
+    border: 10px dashed #fff;
+}
+
+
+.item2{
+
+    background: slateblue;
+}
+
+.title{
+
+    margin-top: -40px;
+    background: #000;
+    color: #fff;
+}
