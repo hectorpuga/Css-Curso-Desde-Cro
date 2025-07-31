@@ -1,0 +1,150 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: sans-serif;
+}
+
+.cuadrado{
+
+    width: 400px;
+    height: 400px;
+    background: steelblue;
+    margin: 40px auto;
+    overflow: hidden;
+    /* animation:  animaciones 2s; */
+    animation-name: animaciones;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    /* n | infinite */
+    animation-iteration-count: 1;
+    /* animation-fill-mode: forwards; */
+    animation-direction: alternate;
+    /* normal | reverse | alternate | alternate-reverse */
+    animation-fill-mode: forwards;
+    /* backwars | normal | forwards |both */
+    /* animation-delay: 2s; */
+    animation-play-state: paused;
+    /* running | paused */
+
+    /* animation: name duration timing-function delay interation-count direction fill-mode; */
+
+    animation:  4s infinite alternate animaciones;
+}
+
+.cuadrado:hover{
+
+    animation-play-state: running;
+}
+
+@keyframes animaciones{
+
+    /* to{
+
+        transform: scale(0.5);
+
+    }
+
+    from{
+transform: scale(1);
+    } */
+
+
+    /* 0%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+
+        transform: rotate(360deg);
+
+    } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spiderman{
+
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    animation: moverSpiderman 3s infinite,bg 2s infinite;
+   
+}
+
+@keyframes moverSpiderman{
+
+    from{
+
+        transform:translateY(-50%);
+    }
+    to{
+        transform: translateY(0);
+    }
+
+
+    0%{
+
+        transform: translateY(-50%);
+
+    }
+
+    30%{
+
+        transform: translateY(0) rotate(5deg);
+    }
+
+    50%{
+
+        transform: rotate(-5deg);
+    }
+
+    75%{
+
+        transform: rotate(5deg);
+    }
+
+    100%{
+
+        transform: translateY(-50px);
+    }
+
+  
+}
+
+/* @keyframes bg {
+        to{
+
+            background-color: crimson;
+        }
+        from{
+            background-color: tomato;
+        }
+} */
